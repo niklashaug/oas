@@ -223,7 +223,7 @@ const operation = petstore.operation('/pet', 'post');
 | :--- | :--- |
 | `.getSecurity()` | Return all security requirements that are applicable for either this operation, or if the operation has none specific to it, then for the entire API. |
 | `.getSecurityWithTypes()` | Return a collection of all security schemes applicable to this operation (using `.getSecurity()`), grouped by how the security should be handled (either AND or OR auth requirements). |
-| `.prepareSecurity` | Return an object of every security scheme that _can_ be used on this operation, indexed by the type of security scheme it is (eg. `Basic`, `OAuth2`, `APIKey`, etc.). |
+| `.prepareSecurity()` | Return an object of every security scheme that _can_ be used on this operation, indexed by the type of security scheme it is (eg. `Basic`, `OAuth2`, `APIKey`, etc.). |
 <!-- prettier-ignore-end -->
 
 #### Specification Extensions
