@@ -162,7 +162,7 @@ export class Operation {
   }
 
   /**
-   * Returns an array of all security requirements associated wtih this operation. If none are
+   * Returns an array of all security requirements associated with this operation. If none are
    * defined at the operation level, the securities for the entire API definition are returned
    * (with an empty array as a final fallback).
    *
